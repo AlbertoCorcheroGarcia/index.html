@@ -1,0 +1,71 @@
+:root {
+    font-family: 'Dancing Script', cursive;
+}
+
+body {
+    background-color: black;
+    font-size: 18px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.postcard {
+    background: white;
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px;
+}
+
+.postcard-body {
+    overflow: hidden
+}
+
+.postcard img {
+    max-width: 60px;
+    float: right;
+}
+
+.postcard-header {
+    overflow: hidden;
+    height: 80px;
+}
+
+input {
+    font-size: 18px;
+}
+
+.postcard h1 {
+    margin: 0;
+}
+
+.postcard-bodyleft {
+    width: 300px;
+    float: left;
+}
+
+.postcard-bodyright {
+    width: 300px;
+    float: right;
+}
+
+.postcard-bodyright input {
+    display: block;
+    border-radius: 2px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.postcard-footer {
+    padding: 5px;
+    text-align: center;
+}
+
+.postcard-footer input[type=submit] {
+    border: none;
+    border-bottom: 1px;
+    background: rgb(121, 119, 119);
+    font-family: 'Dancing Script', cursive;
+}
